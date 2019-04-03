@@ -1,0 +1,67 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem 3rem;
+  font-size: 1.8rem;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  margin: 0rem 3rem;
+  height: 70vh;
+}
+
+.persons {
+  margin: auto 10px;
+}
+.person {
+  font-size: 1.3rem;
+  margin-bottom: 1.1rem;
+}
+
+.persons-middle {
+  margin: auto 10px;
+  font-size: 1.5rem;
+}
+/* .persons-middle span {
+  
+} */
+
+.footer {
+  margin: 0rem 3rem;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-text {
+  display: flex;
+  font-size: 1.3;
+}
+.text {
+  margin-right: 1.5rem;
+}
+
+.bottom-color {
+  background-color: rgb(150, 106, 106);
+  height: 5vh;
+  width: 45vw;
+}
+
+.footer-number {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
