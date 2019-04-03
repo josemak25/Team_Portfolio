@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed");
+@import url("https://fonts.googleapis.com/css?family=Anton");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Rubik+Mono+One");
+
 html,
 body {
   margin: 0;
@@ -6,6 +11,7 @@ body {
   width: 100vw;
   box-sizing: border-box;
   font-size: 16px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .nav {
@@ -13,6 +19,10 @@ body {
   justify-content: space-between;
   margin: 1.5rem 3rem;
   font-size: 1.8rem;
+}
+
+.nav-heading {
+  font-size: 2.5rem;
 }
 
 .section {
@@ -34,12 +44,15 @@ body {
   margin: auto 10px;
   font-size: 1.5rem;
 }
-/* .persons-middle span {
-  
-} */
+.info-head {
+  font-family: "Rubik Mono One", sans-serif;
+  letter-spacing: 0.5rem;
+  margin: 0;
+}
 
 .footer {
   margin: 0rem 3rem;
+  font-family: "Fira Sans Extra Condensed", sans-serif;
 }
 
 .footer-info {
@@ -55,6 +68,12 @@ body {
   margin-right: 1.5rem;
 }
 
+.top-color {
+  background-color: rgb(150, 106, 106);
+  height: 1.8vh;
+  width: 45vw;
+  margin-left: 55vw;
+}
 .bottom-color {
   background-color: rgb(150, 106, 106);
   height: 5vh;
@@ -62,6 +81,7 @@ body {
 }
 
 .footer-number {
-  margin-top: 2rem;
+  margin-top: 3rem;
   font-size: 2rem;
+  font-family: "Anton", sans-serif;
 }
