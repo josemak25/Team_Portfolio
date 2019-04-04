@@ -92,17 +92,16 @@ h3 {
 }
 
 .footer-info {
-    width: 35rem;
+    width: 30rem;
 }
 
-.footer-button {
-    margin-top: 2rem;
-}
+
 .footer-btn {
     border: 1px solid #6743bd;
     border-radius: 3px;
     padding: 0.4rem;
     margin-right: 1rem;
+    margin-top: 1rem;
 }
 
 .cv {
@@ -111,7 +110,7 @@ h3 {
     border-radius: 2rem;
     padding: 1rem;
     width: 15rem;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 .about {
