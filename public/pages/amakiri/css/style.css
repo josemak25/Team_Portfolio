@@ -14,6 +14,10 @@ body {
   justify-content: space-between;
   margin: 1.5rem 3rem;
   font-size: 1.8rem;
+  color: #6743bd;
+}
+
+.nav span {
   color: #ff81d6;
 }
 
@@ -36,7 +40,7 @@ button:hover {
 }
 
 .info-button {
-  background-color: #6743bd;
+  background-color: #ff81d6;
   color: white;
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
@@ -51,7 +55,7 @@ h3 {
 }
 
 .info-social:hover {
-  color: #6743bd;
+  color: #ff81d6;
 }
 
 .icon {
@@ -67,19 +71,24 @@ h3 {
 
 .link:hover {
   background-color: black;
-  color: #6743bd;
+  color: #ff81d6;
   border-radius: 0.3rem;
   cursor: pointer;
 }
 
 .profile-image {
   background-color: #dcdcdd;
-  padding: 2rem;
+  padding: 1.2rem;
   border-radius: 50%;
 }
 
 .profile-pic {
-  width: 20vw;
+  width: 18vw;
+  border-radius: 50%;
+  background-color: #c4c4c5;
+  padding: 1.2rem;
+  height: 16rem;
+  transform: rotate(90deg);
 }
 
 .footer-info {
@@ -103,15 +112,19 @@ h3 {
   border-radius: 3px;
   padding: 0.4rem;
   margin-right: 1rem;
+  color: black;
 }
 
 .cv {
-  background-color: #6743bd;
+  background-color: #ff81d6;
   color: white;
   border-radius: 2rem;
   padding: 1rem;
   width: 15rem;
   margin-top: 3rem;
+}
+.cv:focus {
+  color: white;
 }
 
 .about {
