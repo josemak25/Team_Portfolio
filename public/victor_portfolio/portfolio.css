@@ -1,20 +1,21 @@
 html,
 body {
+  box-sizing: border-box;
+  color: #444444;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  height: 100vh;
   margin: 0;
   padding: 0;
-  height: 100vh;
   width: 100vw;
-  box-sizing: border-box;
-  font-size: 16px;
-  font-family: "Montserrat", sans-serif;
 }
 
 .nav {
+  color: #6743bd;
   display: flex;
+  font-size: 1.8rem;
   justify-content: space-between;
   margin: 1.5rem 3rem;
-  font-size: 1.8rem;
-  color: #6743bd;
 }
 
 .nav-heading:hover {
@@ -31,88 +32,93 @@ div.main {
 }
 
 button:hover {
-    cursor: pointer;
+  cursor: pointer;
+}
+
+.info-tag {
+  font-size: 1.5rem;
 }
 
 .info-button {
-    background-color: #6743bd;
-    color: white;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    width: 6rem;
-    height: 2rem;
+  background-color: #6743bd;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  color: white;
+  height: 2rem;
+  width: 6rem;
 }
 
 h3 {
-    font-size: 3rem;
-    margin: 20px 0;
+  font-size: 3rem;
+  margin: 20px 0;
 }
 
 .info-social:hover {
-    color: #6743bd;
+  color: #6743bd;
 }
 
 .icon {
-    margin-right: 0.9rem;
+  margin-right: 0.9rem;
 }
 .inline-social {
-    margin-left: 0.5rem;
+  margin-left: 0.5rem;
 }
 .link {
-    margin-top: 2rem;
-    padding: 1rem;
+  margin-top: 2rem;
+  padding: 1rem;
 }
 
 .link:hover {
-    background-color: black;
-    color: #6743bd;
-    border-radius: 0.3rem;
-    cursor: pointer;
+  background-color: black;
+  border-radius: 0.3rem;
+  color: #6743bd;
+  cursor: pointer;
 }
 
 .profile-image {
-    background-color: #DCDCDD;
-    padding: 2rem;
-    border-radius: 50%;
+  background-color: #dcdcdd;
+  border-radius: 50%;
+  padding: 2rem;
 }
 
 .profile-pic {
-    width: 20vw;
+  width: 20vw;
 }
 
 .footer {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
+  
 }
 
-.footer-pic{
-    width: 35rem;
-    height: 20rem;
+.footer-pic {
+  height: 20rem;
+  width: 35rem;
 }
 
 .footer-info {
-    width: 30rem;
+  width: 30rem;
 }
 
-
 .footer-btn {
-    border: 1px solid #6743bd;
-    border-radius: 3px;
-    padding: 0.4rem;
-    margin-right: 1rem;
-    margin-top: 1rem;
+  border: 1px solid #6743bd;
+  border-radius: 3px;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  padding: 0.4rem;
 }
 
 .cv {
-    background-color: #6743bd;
-    color: white;
-    border-radius: 2rem;
-    padding: 1rem;
-    width: 15rem;
-    margin-top: 1rem;
+  background-color: #6743bd;
+  border-radius: 2rem;
+  color: white;
+  padding: 1rem;
+  margin-top: 1rem;
+  width: 15rem;
+  
 }
 
 .about {
-    font-size: 2rem;
+  font-size: 2rem;
 }
