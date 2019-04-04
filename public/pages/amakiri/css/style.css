@@ -16,3 +16,17 @@ body {
   font-size: 1.8rem;
   color: #ff81d6;
 }
+
+.nav-heading:hover {
+  cursor: pointer;
+}
+
+.nav-menu:hover {
+  cursor: pointer;
+}
+
+div.main {
+  display: flex;
+  justify-content: space-around;
+  height: 45vh;
+}
