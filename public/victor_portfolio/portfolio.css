@@ -127,3 +127,14 @@ h3 {
 .about {
   font-size: 2rem;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+}
