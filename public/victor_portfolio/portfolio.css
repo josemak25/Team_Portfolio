@@ -11,13 +11,18 @@ body {
 }
 
 .nav {
-  color: #6743bd;
+  color: #E7633D;
   display: flex;
   font-size: 1.8rem;
   justify-content: space-between;
   margin: 1.5rem 3rem;
 }
-
+.heading-text {
+  color: #444444;
+}
+span {
+  color: #E7633D;
+}
 .nav-heading:hover {
   cursor: pointer;
 }
@@ -40,22 +45,23 @@ button:hover {
 }
 
 .info-button {
-  background-color: #6743bd;
+  background-color: #E7633D;
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
   color: white;
-  height: 2rem;
-  width: 6rem;
+  height: 3rem;
+  width: 10rem;
+  font-size: 1.5rem;
 }
 
 h3 {
   font-size: 3rem;
-  margin: 20px 0;
+  margin: 0px 0;
 }
 
 .info-social:hover {
-  color: #6743bd;
+  color: #E7633D;
 }
 
 .icon {
@@ -65,14 +71,14 @@ h3 {
   margin-left: 0.5rem;
 }
 .link {
-  margin-top: 2rem;
+  margin-top: 0rem;
   padding: 1rem;
 }
 
 .link:hover {
   background-color: black;
   border-radius: 0.3rem;
-  color: #6743bd;
+  color: #E7633D;
   cursor: pointer;
 }
 
@@ -108,15 +114,14 @@ h3 {
 }
 
 .footer-btn {
-  border: 1px solid #6743bd;
+  border: 1px solid #E7633D;
   border-radius: 3px;
-  margin-right: 1rem;
-  margin-top: 1rem;
+  margin-bottom: 0.5rem;
   padding: 0.4rem;
 }
 
 .cv {
-  background-color: #6743bd;
+  background-color: #E7633D;
   border-radius: 2rem;
   color: white;
   padding: 1rem;
