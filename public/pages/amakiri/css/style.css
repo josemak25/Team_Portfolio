@@ -49,3 +49,25 @@ h3 {
   font-size: 3rem;
   margin: 20px 0;
 }
+
+.info-social:hover {
+  color: #6743bd;
+}
+
+.icon {
+  margin-right: 0.9rem;
+}
+.inline-social {
+  margin-left: 0.5rem;
+}
+.link {
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.link:hover {
+  background-color: black;
+  color: #6743bd;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
