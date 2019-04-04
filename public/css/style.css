@@ -133,3 +133,6 @@ body {
   font-size: 1.2rem;
   margin-right: 3px;
 }
+a {
+  text-decoration: none;
+}
