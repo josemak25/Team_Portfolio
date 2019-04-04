@@ -71,3 +71,50 @@ h3 {
     cursor: pointer;
 }
 
+.profile-image {
+    background-color: #DCDCDD;
+    padding: 2rem;
+    border-radius: 50%;
+}
+
+.profile-pic {
+    width: 20vw;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-pic{
+    width: 35rem;
+    height: 20rem;
+}
+
+.footer-info {
+    width: 35rem;
+}
+
+.footer-button {
+    margin-top: 2rem;
+}
+.footer-btn {
+    border: 1px solid #6743bd;
+    border-radius: 3px;
+    padding: 0.4rem;
+    margin-right: 1rem;
+}
+
+.cv {
+    background-color: #6743bd;
+    color: white;
+    border-radius: 2rem;
+    padding: 1rem;
+    width: 15rem;
+    margin-top: 3rem;
+}
+
+.about {
+    font-size: 2rem;
+}
+ 
