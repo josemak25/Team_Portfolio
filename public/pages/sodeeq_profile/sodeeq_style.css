@@ -1,0 +1,119 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem 3rem;
+  font-size: 1.8rem;
+  color: #6743bd;
+}
+
+.nav-heading:hover {
+  cursor: pointer;
+}
+
+.nav-menu:hover {
+  cursor: pointer;
+}
+div.main {
+  display: flex;
+  justify-content: space-around;
+  height: 45vh;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.info-button {
+  background-color: #6743bd;
+  color: white;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  width: 6rem;
+  height: 2rem;
+}
+
+h3 {
+  font-size: 3rem;
+  margin: 20px 0;
+}
+
+.info-social:hover {
+  color: #6743bd;
+}
+
+.icon {
+  margin-right: 0.9rem;
+}
+.inline-social {
+  margin-left: 0.5rem;
+}
+.link {
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.link:hover {
+  background-color: black;
+  color: #6743bd;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.profile-image {
+  background-color: #dcdcdd;
+  padding: 2rem;
+  border-radius: 50%;
+}
+
+.profile-pic {
+  width: 20vw;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-pic {
+  width: 35rem;
+  height: 20rem;
+}
+
+.footer-info {
+  width: 35rem;
+}
+
+.footer-button {
+  margin-top: 2rem;
+}
+.footer-btn {
+  border: 1px solid #6743bd;
+  border-radius: 3px;
+  padding: 0.4rem;
+  margin-right: 1rem;
+}
+
+.cv {
+  background-color: #6743bd;
+  color: white;
+  border-radius: 2rem;
+  padding: 1rem;
+  width: 15rem;
+  margin-top: 3rem;
+}
+
+.about {
+  font-size: 2rem;
+}
