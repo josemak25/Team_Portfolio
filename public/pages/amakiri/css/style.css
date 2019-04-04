@@ -30,3 +30,22 @@ div.main {
   justify-content: space-around;
   height: 45vh;
 }
+
+button:hover {
+  cursor: pointer;
+}
+
+.info-button {
+  background-color: #6743bd;
+  color: white;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  width: 6rem;
+  height: 2rem;
+}
+
+h3 {
+  font-size: 3rem;
+  margin: 20px 0;
+}
