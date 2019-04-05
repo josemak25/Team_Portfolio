@@ -17,6 +17,10 @@ body {
   color: #6743bd;
 }
 
+.nav a {
+  text-decoration: none;
+}
+
 .nav-heading:hover {
   cursor: pointer;
 }
@@ -47,6 +51,10 @@ button:hover {
 h3 {
   font-size: 3rem;
   margin: 20px 0;
+}
+
+img {
+  border-radius: 50%;
 }
 
 .info-social:hover {
