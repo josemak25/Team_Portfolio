@@ -18,7 +18,7 @@ body {
 
 .bg-image {
   position: absolute;
-  right: -1rem;
+  right: -2rem;
   top: 12vh;
   z-index: -1111;
   opacity: 0.8;
