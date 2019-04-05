@@ -17,6 +17,10 @@ body {
   color: #6743bd;
 }
 
+.nav a {
+  text-decoration: none;
+}
+
 .nav-heading:hover {
   cursor: pointer;
 }
