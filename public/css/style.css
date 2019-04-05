@@ -12,6 +12,8 @@ body {
   box-sizing: border-box;
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .bg-image {
@@ -113,17 +115,20 @@ body {
 .top-color {
   background-color: #747fed;
   height: 1.8vh;
-  width: 45vw;
+  width: 47vw;
   margin-left: 55vw;
 }
 .bottom-color {
   background-color: #747fed;
   height: 5vh;
   width: 45vw;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 .footer-number {
-  margin-top: 3rem;
+  margin-top: 4rem;
   font-size: 2rem;
   font-family: "Anton", sans-serif;
   color: #ff81d6;
